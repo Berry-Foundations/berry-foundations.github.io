@@ -1,0 +1,111 @@
+[
+	{
+		"template": {
+			"name": "Bot Name",
+			"color": {
+				"main": "#ffffff",
+				"need": false,
+				"extra": "#ffffff",
+				"font": "#000000"
+			},
+			"icon": "Berry.png",
+			"type": "bot-type",
+			"links": {
+				"website": "https://Berry-Tech.attaditya.repl.co",
+				"add": "https://Berry-Tech.attaditya.repl.co"
+			}
+		},
+		"bots": [
+			{
+				"name": "JustBerry",
+				"color": {
+					"main": "#0a3d43",
+					"need": false,
+					"extra": "#ffffff",
+					"font": "ffffff; font-weight: bold"
+				},
+				"icon": "https://github.com/Berry-Foundations/JustBerry/blob/main/JustBerry.png?raw=true",
+				"type": "discord",
+				"links": {
+					"website": "https://justberry.attaditya.repl.co/",
+					"add": "https://discord.com/api/oauth2/authorize?client_id=915973222229504001&permissions=0&scope=bot"
+				}
+			},
+			{
+				"name": "VibeBerry",
+				"color": {
+					"main": "#36393f",
+					"need": false,
+					"extra": "#ffffff",
+					"font": "#ffffff; font-family: 'Kite One'"
+				},
+				"icon": "https://github.com/Attachment-Studios/VibeBerry/blob/master/VibeBerry.png?raw=true",
+				"type": "discord",
+				"links": {
+					"website": "https://vibeberry.attaditya.repl.co/",
+					"add": "https://discord.com/api/oauth2/authorize?client_id=895121185065562184&permissions=66154304&scope=bot"
+				}
+			},
+			{
+				"name": "LifeBerry",
+				"color": {
+					"main": "#ed4548",
+					"need": true,
+					"extra": "#36393f",
+					"font": "#ffffff; font-family: 'Baloo Da 2'; font-weight: bold"
+				},
+				"icon": "https://github.com/Berry-Foundations/LifeBerry/blob/main/LifeBerry.png?raw=true",
+				"type": "discord",
+				"links": {
+					"website": "https://lifeberry.attaditya.repl.co/",
+					"add": "https://discord.com/api/oauth2/authorize?client_id=915103888141602829&permissions=536947776&scope=bot%20applications.commands"
+				}
+			},
+			{
+				"name": "CrossBerry",
+				"color": {
+					"main": "#5865f2",
+					"need": true,
+					"extra": "#36393f",
+					"font": "#000000; font-family: 'nasalization'"
+				},
+				"icon": "https://github.com/Berry-Foundations/CrossBerry/blob/main/CrossBerry.png?raw=true",
+				"type": "discord",
+				"links": {
+					"website": "https://crossberry.attaditya.repl.co/",
+					"add": "https://discord.com/api/oauth2/authorize?client_id=894131041390977074&permissions=275418132032&scope=bot%20applications.commands"
+				}
+			},
+			{
+				"name": "PingBerry",
+				"color": {
+					"main": "#36393f",
+					"need": false,
+					"extra": "#36393f",
+					"font": "#ffffff; font-family: 'Mochiy Pop P One'"
+				},
+				"icon": "https://github.com/Berry-Foundations/PingBerry/blob/main/PingBerry.png?raw=true",
+				"type": "discord",
+				"links": {
+					"website": "https://pingberry.attaditya.repl.co/",
+					"add": "https://discord.com/api/oauth2/authorize?client_id=895701111074328586&permissions=76864&scope=bot"
+				}
+			},
+			{
+				"name": "PackedBerry",
+				"color": {
+					"main": "#ceb78c",
+					"need": true,
+					"extra": "#36393f",
+					"font": "#000000; font-family: 'Jua'"
+				},
+				"icon": "https://github.com/Attachment-Studios/PackedBerry/blob/master/PackedBerry.png?raw=true",
+				"type": "discord",
+				"links": {
+					"website": "https://packedberry.attaditya.repl.co/",
+					"add": "https://discord.com/api/oauth2/authorize?client_id=860109351707475988&permissions=8&scope=bot"
+				}
+			}
+		]
+	}
+]
