@@ -1,5 +1,5 @@
 # Berry Foundations
-![Berry-Tech](https://github.com/Berry-Foundations/berry-foundations.github.io/blob/master/Berry%20Foundations%20Social%20Banner.png?raw=true)
+![Berry-Tech](https://raw.githubusercontent.com/Berry-Foundations/berry-foundations.github.io/main/Berry%20Foundations%20Social%20Banner.png)
 
 ## What is Berry Foundations?
 Berry Foundations is a bot development organization. Here various bots are created. For safety, connecting, fun and more stuff.
