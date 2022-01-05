@@ -42,6 +42,7 @@ bots = `
 		<center>
 			<img id="Berry" src="Berry.png">
 			<h1>Berry Bots</h1>
+			<h1>Loading Bots...</h1>
 		</center>
 	</div>
 `;
@@ -57,6 +58,9 @@ policy = `
 				These exist for user safety, safety for content rights and other rights.
 				All bots follow these policies and in case they don't, the policy not followed will be mentioned.
 			</p>
+			<h1>Loading Policies...</h1>
+		</center>
+	</div>
 `;
 
 function changePage(to) {
@@ -64,6 +68,7 @@ function changePage(to) {
 	if (to.toLowerCase() === "question") {
 		content.innerHTML = about;
 	} else if (to.toLowerCase() === "robot") {
+		content.innerHTML = bots;
 		fetch("bots.json").then(req => req.json()).then(data => {
 			bots = `
 				<div class="bots">
@@ -100,6 +105,7 @@ function changePage(to) {
 			content.innerHTML = bots;
 		});
 	} else if (to.toLowerCase() === "shield") {
+		content.innerHTML = policy;
 		fetch("policy/user-safety.md").then(req => req.text()).then(data => {
 			policy = `<div class="privacy">
 				<center>
@@ -156,4 +162,15 @@ function changePage(to) {
 }
 
 changePage('asia');
+
+if (location.href.includes("?")) {
+	__content = location.href.split('?')[1];
+	if (__content.toLowerCase() === "info") {
+		changePage('question');
+	} else if (__content.toLowerCase() === "bots") {
+		changePage('robot');
+	} else if (__content.toLowerCase() === "policy") {
+		changePage('shield');
+	}
+}
 
